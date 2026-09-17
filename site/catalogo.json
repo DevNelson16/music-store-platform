@@ -1,0 +1,37 @@
+{
+  "categorias": ["CDs", "Vinil", "Merch", "Posters"],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Álbum - União Fez A Força",
+      "categoria": "CDs",
+      "preco": 18.99,
+      "descricao": "Uma coletânea com os maiores sucessos.",
+      "imagem": "img/uniao_fez_a_forca.jpeg"
+    },
+    {
+      "id": 2,
+      "nome": "Álbum - Castelos",
+      "categoria": "CDs",
+      "preco": 19.99,
+      "descricao": "Castelos de lata e areia",
+      "imagem": "img/castelos.jpeg"
+    },
+    {
+      "id": 3,
+      "nome": "Álbum - Filhos Das Ruas II",
+      "categoria": "CDs",
+      "preco": 20.99,
+      "descricao": "Uma coletânea com os maiores sucessos.",
+      "imagem": "img/filhos_das_ruas_2.jpeg"
+    },
+    {
+      "id": 4,
+      "nome": "Camiseta Oficial da Força Suprema",
+      "categoria": "Merch",
+      "preco": 25.00,
+      "descricao": "Camiseta com estampa exclusiva da turnê.",
+      "imagem": "img/camisolas_nga.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+
+--- event_details ---
+event_id	event_name	description	date	time	venue	capacity	total_tickets	sold_tickets	available_tickets
+1	Força Suprema Live 2026	Grande concerto de encerramento da digressão nacional	2026-10-15	21:00:00	Arena MEO, Lisboa	5000	4	2	2
+2	Força Suprema Porto	Concerto especial com participação de Prodígio e Nga	2026-09-20	21:30:00	Super Bock Arena, Porto	4000	2	1	1
+3	Nga Grande Show	Apresentação do álbum mais recente de Nga	2026-12-12	20:00:00	Cine Tivoli, Lisboa	800	2	1	1
+4	Meu Grande Show Castelos	Concerto acústico intimista	2026-11-12	20:00:00	Cine Tivoli, Lisboa	800	3	1	2
+
+--- customer_sales_summary ---
+customer_id	customer_name	number_of_tickets_purchased	total_spent
+1	Nelson Geovetty	1	60.00
+2	João Silva	1	30.00
+3	Nelson Geovetty Jaime	3	70.00
+
+--- event_sales_summary ---
+event_id	event_name	number_of_tickets_sold	total_revenue
+1	Força Suprema Live 2026	2	135.00
+2	Força Suprema Porto	1	60.00
+3	Nga Grande Show	1	60.00
+4	Meu Grande Show Castelos	1	45.00
+
+--- tickets_status ---
+ticket_id	event_name	price	seat_number	status
+1	Força Suprema Live 2026	60.00	VIP-01	Sold
+2	Força Suprema Live 2026	25.00	GA-001	Sold
+3	Força Suprema Live 2026	25.00	GA-002	Available
+4	Força Suprema Live 2026	25.00	GA-003	Available
+5	Força Suprema Porto	30.00	GA-001	Available
+6	Força Suprema Porto	30.00	GA-002	Sold
+7	Nga Grande Show	30.00	GA-001	Available
+8	Nga Grande Show	30.00	GA-002	Sold
+9	Meu Grande Show Castelos	15.00	GA-001	Sold
+10	Meu Grande Show Castelos	15.00	GA-002	Available
+11	Meu Grande Show Castelos	15.00	GA-003	Available

@@ -1,0 +1,2567 @@
+/* ==========================================================
+   CSS consolidado do site - gerado automaticamente.
+   Cada bloco abaixo pertence a UMA pagina e esta isolado com
+   uma classe unica (ex: .pg-admin) aplicada na tag <body>
+   dessa pagina, para que os estilos de paginas diferentes
+   nao entrem em conflito uns com os outros.
+   ========================================================== */
+
+/* ===== admin/add_event.php ===== */
+        body.pg-add-event {
+
+            background: #f8f9fa;
+            font-family: Poppins, sans-serif;
+
+        }
+
+        .pg-add-event .card {
+
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, .15);
+
+        }
+
+        .pg-add-event .btn-warning {
+
+            background: #ffc107;
+            border: none;
+            color: #000;
+
+        }
+
+/* ===== admin/add_product.php ===== */
+body.pg-add-product {
+
+font-family:'Poppins',sans-serif;
+
+background:#fff;
+
+}
+
+.pg-add-product .card {
+
+border-radius:15px;
+
+border:2px solid #ffc107;
+
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+.pg-add-product h2 {
+
+color:#ffc107;
+
+font-weight:700;
+
+}
+
+.pg-add-product .btn-warning {
+
+background:#ffc107;
+
+border:none;
+
+font-weight:bold;
+
+}
+
+.pg-add-product .btn-warning:hover {
+
+background:#e0a800;
+
+}
+
+/* ===== admin/admin.php ===== */
+        body.pg-admin {
+
+            font-family: 'Poppins', sans-serif;
+            background: #f8f9fa;
+
+        }
+
+        .pg-admin .navbar {
+
+            background: #212529;
+
+        }
+
+        .pg-admin .navbar a {
+
+            color: #ffc107 !important;
+
+        }
+
+        .pg-admin .container {
+
+            margin-top: 30px;
+
+        }
+
+        .pg-admin .section-title {
+
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            color: #212529;
+
+        }
+
+        .pg-admin .card-dashboard {
+
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+
+        }
+
+        .pg-admin .card-dashboard i {
+
+            font-size: 35px;
+            color: #ffc107;
+
+        }
+
+        .pg-admin .card-dashboard h3 {
+
+            margin-top: 10px;
+
+        }
+
+        .pg-admin .btn-warning {
+
+            background: #ffc107;
+            border: none;
+            color: #000;
+
+        }
+
+        .pg-admin .btn-warning:hover {
+
+            background: #e0a800;
+
+        }
+
+        .pg-admin table th {
+
+            background: #212529 !important;
+            color: #ffc107 !important;
+
+        }
+
+        .pg-admin img {
+
+            border-radius: 5px;
+
+        }
+
+        .pg-admin footer {
+
+            margin-top: 50px;
+            padding: 20px;
+            background: #212529;
+            color: #ffc107;
+            text-align: center;
+
+        }
+
+/* ===== admin/detalhes.php ===== */
+        body.pg-detalhes {
+            font-family: 'Poppins', sans-serif;
+            background: #f8f9fa;
+        }
+        .pg-detalhes .card {
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .pg-detalhes .btn-banda {
+            background: #ffc107;
+            color: #000;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        .pg-detalhes .btn-banda:hover {
+            background: #e0a800;
+            color: #000;
+        }
+        .pg-detalhes .pedido-header {
+            background: #343a40;
+            color: #ffc107;
+            padding: 15px;
+            border-radius: 12px 12px 0 0;
+        }
+        .pg-detalhes .pedido-info {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .pg-detalhes .pedido-total {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #28a745;
+        }
+        .pg-detalhes .table thead {
+            background: #ffc107;
+            color: #000;
+        }
+        .pg-detalhes .table img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+/* ===== admin/edit_product.php ===== */
+body.pg-edit-product {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+.pg-edit-product .card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.pg-edit-product .btn-warning {
+    background-color: #ffc107;
+    color: #000;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+.pg-edit-product .btn-warning:hover {
+    background-color: #e0a800;
+    color: #000;
+}
+
+/* ===== admin/imprimir.php ===== */
+        body.pg-imprimir {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            color: #000;
+        }
+        .pg-imprimir h1, .pg-imprimir h2, .pg-imprimir h3 {
+            margin: 0;
+        }
+        .pg-imprimir .header {
+            text-align: center;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .pg-imprimir .pedido-info {
+            margin-bottom: 20px;
+        }
+        .pg-imprimir .pedido-info p {
+            margin: 5px 0;
+        }
+        .pg-imprimir table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .pg-imprimir table th, .pg-imprimir table td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+        .pg-imprimir table th {
+            background: #f2f2f2;
+        }
+        .pg-imprimir .total {
+            text-align: right;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .pg-imprimir .footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            text-align: center;
+            border-top: 1px solid #000;
+            padding-top: 10px;
+        }
+        @media print {
+            .pg-imprimir .no-print {
+                display: none;
+            }
+        }
+
+/* ===== admin/login_admin.php ===== */
+        body.pg-login-admin {
+            font-family: Arial, sans-serif;
+            background-color:#f8f9fa;
+        }
+        .pg-login-admin .login-box {
+            max-width: 400px;
+            margin: 80px auto;
+            padding: 25px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+        }
+        .pg-login-admin h2 { text-align:center; margin-bottom:20px; }
+        .pg-login-admin .btn-warning { background-color:#ffc107; border:none; color:#000; }
+        .pg-login-admin .btn-warning:hover { background-color:#e0a800; color:#000; }
+
+/* ===== admin/order_details.php ===== */
+/* Importação da fonte Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Reset básico */
+.pg-order-details *, .pg-order-details *::before, .pg-order-details *::after {
+    box-sizing: border-box;
+}
+
+body.pg-order-details, .pg-order-details h1, .pg-order-details p, .pg-order-details table, .pg-order-details th, .pg-order-details td, .pg-order-details a, .pg-order-details button, .pg-order-details input {
+    margin: 0;
+    padding: 0;
+}
+
+body.pg-order-details {
+    font-family: "Segoe UI", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(135deg, #111, #222);
+    background-color: #121212;
+    color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para o botão de mensagem */
+.pg-order-details #message-box {
+    border-radius: 0.5rem; /* rounded-md */
+    padding: 0.75rem; /* p-3 */
+    margin-bottom: 1rem; /* mb-4 */
+    font-weight: 600; /* font-semibold */
+    text-align: center; /* text-center */
+}
+
+.pg-order-details #message-box.success {
+    background-color: #d1fae5; /* green-100 */
+    color: #065f46; /* green-800 */
+    border: 1px solid #34d399; /* green-400 */
+}
+
+.pg-order-details #message-box.error {
+    background-color: #fee2e2; /* red-100 */
+    color: #991b1b; /* red-800 */
+    border: 1px solid #f87171; /* red-400 */
+}
+
+/* Estilos para cards de conteúdo */
+.pg-order-details .content-card {
+    border-radius: 0.5rem; /* rounded-lg */
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* shadow-sm */
+    border: 1px solid #e5e7eb; /* border-gray-200 */
+    padding: 1.5rem; /* p-6 */
+    background-color: #f9fafb; /* bg-gray-50 */
+}
+
+/* Estilos para botões de ação na lista de admin */
+.pg-order-details .admin-action-btn {
+    padding: 0.5rem 1rem; /* px-4 py-2 */
+    border-radius: 0.375rem; /* rounded-md */
+    font-weight: 600; /* font-semibold */
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* shadow-sm */
+}
+
+.pg-order-details .admin-action-btn.edit {
+    background-color: #3b82f6; /* blue-500 */
+    color: white;
+}
+.pg-order-details .admin-action-btn.edit:hover {
+    background-color: #2563eb; /* blue-600 */
+}
+
+.pg-order-details .admin-action-btn.delete {
+    background-color: #ef4444; /* red-500 */
+    color: white;
+}
+.pg-order-details .admin-action-btn.delete:hover {
+    background-color: #dc2626; /* red-600 */
+}
+
+/* Estilos para o formulário de edição (se houver) */
+.pg-order-details .edit-form-container {
+    background-color: #f3f4f6; /* gray-100 */
+    padding: 1.5rem; /* p-6 */
+    border-radius: 0.5rem; /* rounded-lg */
+    margin-top: 1rem;
+    border: 1px solid #d1d5db; /* gray-300 */
+}
+
+/* Responsividade para o cabeçalho */
+@media (max-width: 640px) {
+    .pg-order-details header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pg-order-details header h1 {
+        margin-bottom: 1rem;
+    }
+    .pg-order-details header nav {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* ===============================
+   Estilo - Loja Online Banda
+   =============================== */
+
+.pg-order-details h1 {
+    font-size: 2.2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #ff4d6d;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+    text-align: center;
+}
+
+.pg-order-details p {
+    font-size: 1.1rem;
+    margin: 20px 0;
+}
+
+.pg-order-details strong {
+    color: #ff9800;
+    font-size: 1.3rem;
+}
+
+.pg-order-details .button {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 25px;
+    background: #ffc107;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    transition: all 0.3s ease;
+}
+
+.pg-order-details .button:hover {
+    background: #ffc107;
+    transform: scale(1.05);
+}
+
+.pg-order-details a.button, .pg-order-details button.button {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff4d6d, #ff1e50);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.pg-order-details a.button:hover, .pg-order-details button.button:hover {
+    background: linear-gradient(135deg, #ff1e50, #cc0040);
+    transform: scale(1.05);
+}
+
+.pg-order-details footer {
+    width: 100%;
+    margin-top: 50px;
+    background: #000;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    border-top: 2px solid #ffc107;
+    text-align: center;
+}
+
+/* Tabela */
+.pg-order-details .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.pg-order-details .cart-table th {
+    background: #ff4d6d;
+    color: #fff;
+    padding: 12px;
+    text-align: left;
+}
+
+.pg-order-details .cart-table td {
+    padding: 12px;
+    border-bottom: 1px solid #333;
+}
+
+.pg-order-details .cart-table tr:hover {
+    background: #2a2a2a;
+}
+
+/* Inputs */
+.pg-order-details input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ff4d6d;
+    border-radius: 5px;
+    background: #222;
+    color: #fff;
+    text-align: center;
+}
+
+/* Total */
+.pg-order-details p strong {
+    color: #ff4d6d;
+    font-size: 18px;
+}
+
+/* Ações */
+.pg-order-details .actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+/* ===== conta/profile.php ===== */
+        body.pg-profile {
+            background-color: #111; /* fundo escuro */
+            font-family: Arial, sans-serif;
+            color: #fff;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .pg-profile .welcome-box {
+            background-color: #1c1c1c;
+            border: 1px solid #444;
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+        .pg-profile .welcome-box a {
+            color: #00ffff;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .pg-profile .welcome-box a:hover {
+            color: #ff00ff;
+            text-decoration: underline;
+        }
+
+/* ===== conta/recuperar_senha.php ===== */
+/* Estilo moderno e profissional */
+body.pg-recuperar-senha {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f9f9f9, #e9ecef);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+/* Card centralizado */
+.pg-recuperar-senha .card {
+    border: none;
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 450px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    animation: fadeIn 0.6s ease-in-out;
+    text-align: center;
+}
+
+/* Título */
+.pg-recuperar-senha .card h2 {
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+.pg-recuperar-senha .form-control {
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease;
+}
+.pg-recuperar-senha .form-control:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 6px rgba(255,193,7,0.5);
+}
+
+/* Botões */
+.pg-recuperar-senha .btn-custom {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease;
+}
+.pg-recuperar-senha .btn-enviar {
+    background: linear-gradient(45deg, #ffc107, #ffca2c);
+    color: #000;
+}
+.pg-recuperar-senha .btn-enviar:hover {
+    background: linear-gradient(45deg, #e0a800, #d39e00);
+    transform: translateY(-2px);
+}
+.pg-recuperar-senha .btn-voltar {
+    background: linear-gradient(45deg, #6c757d, #868e96);
+    color: #fff;
+    text-decoration: none;
+}
+.pg-recuperar-senha .btn-voltar:hover {
+    background: linear-gradient(45deg, #5a6268, #495057);
+    transform: translateY(-2px);
+    color: #fff;
+}
+
+/* Mensagens */
+.pg-recuperar-senha .alert {
+    border-radius: 10px;
+    font-weight: 500;
+    animation: slideDown 0.5s ease;
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== conta/registro.php ===== */
+        body.pg-registro {
+            background-color: #f0f2f5;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .pg-registro .form-container {
+            max-width: 450px;
+            margin: 60px auto;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+        }
+
+        .pg-registro .form-title {
+            color: #212529;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .pg-registro .btn-primary {
+            background-color: #212529;
+            border-color: #212529;
+        }
+
+        .pg-registro .btn-primary:hover {
+            background-color: #ffc107;
+            color: #212529;
+        }
+
+        .pg-registro .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+        }
+
+        .pg-registro .alert a {
+            color: #002244;
+            text-decoration: underline;
+        }
+
+/* ===== contactos/contactos.php ===== */
+        body.pg-contactos {
+            font-family: 'Poppins', sans-serif;
+            background: #fff;
+            color: #000;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .pg-contactos main {
+            flex: 1;
+            padding: 50px 15px;
+        }
+
+        /* HEADER */
+
+        .pg-contactos header {
+            background: #111;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .4);
+        }
+
+        .pg-contactos header img {
+            width: 100px;
+        }
+
+        .pg-contactos header .nav-link {
+            color: #fff !important;
+            transition: .3s;
+        }
+
+        .pg-contactos header .nav-link:hover, .pg-contactos header .nav-link.active {
+            color: #ffc107 !important;
+            text-decoration: underline;
+        }
+
+        /* FORMULÁRIO */
+
+        .pg-contactos h2 {
+            text-align: center;
+            color: #ffc107;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        .pg-contactos .card-form {
+            max-width: 750px;
+            margin: auto;
+            background: #fff;
+            border-radius: 15px;
+            padding: 35px;
+            border: 2px solid #ffc107;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
+        }
+
+        .pg-contactos .form-control {
+            border-radius: 8px;
+        }
+
+        .pg-contactos .form-control:focus {
+            border-color: #ffc107;
+            box-shadow: 0 0 0 .2rem rgba(255, 193, 7, .25);
+        }
+
+        .pg-contactos .btn-banda {
+            background: #ffc107;
+            color: #000;
+            font-weight: 600;
+            border: none;
+            padding: 10px 30px;
+            transition: .3s;
+        }
+
+        .pg-contactos .btn-banda:hover {
+            background: #e0a800;
+            transform: translateY(-2px);
+        }
+
+        .pg-contactos .form-control.is-valid {
+            border-color: green;
+        }
+
+        .pg-contactos .form-control.is-invalid {
+            border-color: red;
+        }
+
+        /* FOOTER */
+
+        .pg-contactos footer {
+            background: #111;
+            color: #fff;
+            border-top: 4px solid #ffc107;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: auto;
+        }
+
+        .pg-contactos footer a {
+            color: #fff;
+            margin: 0 10px;
+            transition: .3s;
+        }
+
+        .pg-contactos footer a:hover {
+            color: #ffc107;
+            transform: scale(1.2);
+        }
+
+        @media(max-width:768px) {
+
+            .pg-contactos .card-form {
+                padding: 25px;
+            }
+
+            .pg-contactos header .nav {
+                flex-direction: column;
+                text-align: center;
+            }
+
+        }
+
+/* ===== eventos/comprar_ticket.php ===== */
+body.pg-comprar-ticket {
+
+font-family:'Poppins',sans-serif;
+background:#fff;
+
+}
+
+.pg-comprar-ticket main {
+
+min-height:100vh;
+padding:50px 15px;
+
+}
+
+.pg-comprar-ticket .card-compra {
+
+max-width:600px;
+
+margin:auto;
+
+padding:30px;
+
+border-radius:15px;
+
+border:2px solid #ffc107;
+
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+.pg-comprar-ticket h1 {
+
+text-align:center;
+
+color:#ffc107;
+
+font-weight:700;
+
+}
+
+.pg-comprar-ticket .btn-compra {
+
+background:#ffc107;
+
+color:#000;
+
+font-weight:bold;
+
+}
+
+.pg-comprar-ticket .btn-compra:hover {
+
+background:#e0a800;
+
+}
+
+/* ===== eventos/tickets.php ===== */
+        body.pg-tickets {
+
+            font-family: 'Poppins', sans-serif;
+            background: #fff;
+            color: #000;
+
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+
+        }
+
+        .pg-tickets main {
+
+            flex: 1;
+
+        }
+
+        /* HEADER */
+
+        .pg-tickets header {
+
+            background: #111;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .4);
+
+        }
+
+        .pg-tickets header img {
+
+            width: 100px;
+            border-radius: 8px;
+
+        }
+
+        .pg-tickets .nav-link {
+
+            color: #fff !important;
+
+        }
+
+        .pg-tickets .nav-link:hover, .pg-tickets .nav-link.active {
+
+            color: #ffc107 !important;
+
+        }
+
+        /* TITULO */
+
+        .pg-tickets .titulo {
+
+            text-align: center;
+            margin: 50px 0 40px;
+
+            color: #ffc107;
+
+            font-weight: 700;
+
+        }
+
+        /* CARDS */
+
+        .pg-tickets .ticket-card {
+
+            background: #fff;
+
+            border: 2px solid #ffc107;
+
+            border-radius: 15px;
+
+            padding: 25px;
+
+            height: 100%;
+
+            box-shadow: 0 8px 20px rgba(0, 0, 0, .15);
+
+            transition: .3s;
+
+        }
+
+        .pg-tickets .ticket-card:hover {
+
+            transform: translateY(-5px);
+
+        }
+
+        .pg-tickets .ticket-card h3 {
+
+            color: #111;
+
+            font-weight: 700;
+
+        }
+
+        .pg-tickets .info {
+
+            margin: 10px 0;
+
+        }
+
+        .pg-tickets .preco {
+
+            font-size: 1.4rem;
+
+            font-weight: 700;
+
+            color: #ffc107;
+
+        }
+
+        .pg-tickets .btn-ticket {
+
+            background: #ffc107;
+
+            color: #000;
+
+            font-weight: 700;
+
+            border: none;
+
+        }
+
+        .pg-tickets .btn-ticket:hover {
+
+            background: #e0a800;
+
+        }
+
+        /* FOOTER */
+
+        .pg-tickets footer {
+
+            background: #111;
+
+            color: #fff;
+
+            border-top: 4px solid #ffc107;
+
+            text-align: center;
+
+            padding: 20px;
+
+        }
+
+/* ===== eventos/tour.php ===== */
+    body.pg-tour {
+      font-family: 'Poppins', sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .pg-tour main {
+      flex: 1;
+    }
+
+    /* HEADER */
+
+    .pg-tour header {
+      background: #212529;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, .3);
+    }
+
+    .pg-tour header .nav-link {
+      color: #fff;
+      font-weight: 500;
+      transition: .3s;
+    }
+
+    .pg-tour header .nav-link:hover, .pg-tour header .nav-link.active {
+      color: #ffc107;
+    }
+
+    .pg-tour header img {
+      width: 100px;
+      border-radius: 8px;
+    }
+
+    /* TÍTULOS */
+
+    .pg-tour .h1_torne {
+      text-align: center;
+      margin: 40px 0 20px;
+      font-size: 2.6rem;
+      font-weight: 700;
+      color: #212529;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, .15);
+    }
+
+    .pg-tour main h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #ffc107;
+    }
+
+    /* CARDS */
+
+    .pg-tour .tour-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 0 25px 50px;
+    }
+
+    .pg-tour .tour-card {
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      transition: .3s;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, .12);
+    }
+
+    .pg-tour .tour-card i {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .pg-tour .tour-card span {
+      display: block;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .pg-tour .tour-card small {
+      display: block;
+      color: #555;
+    }
+
+    /* DATAS FUTURAS */
+
+    .pg-tour .futuro {
+      background: #fff;
+      color: #212529;
+      cursor: pointer;
+    }
+
+    .pg-tour .futuro i {
+      color: #ffc107;
+    }
+
+    .pg-tour .futuro:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, .2);
+    }
+
+    /* DATAS PASSADAS */
+
+    .pg-tour .passado {
+      background: #e9ecef;
+      color: #6c757d;
+      cursor: default;
+    }
+
+    .pg-tour .passado i {
+      color: #adb5bd;
+    }
+
+    /* FOOTER */
+
+    .pg-tour footer {
+      background: #212529;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: auto;
+    }
+
+    .pg-tour footer a {
+      color: #ffc107;
+      font-size: 1.4rem;
+      margin: 0 10px;
+      transition: .3s;
+    }
+
+    .pg-tour footer a:hover {
+      color: #fff;
+    }
+
+    @media (max-width:768px) {
+      .pg-tour header .nav {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+
+/* ===== galeria/albuns.php ===== */
+        body.pg-albuns {
+            font-family: 'Poppins', sans-serif;
+            background: #f4f4f8;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .pg-albuns main {
+            flex: 1;
+        }
+
+        /* HEADER */
+
+        .pg-albuns header {
+            background: #1e1e2f;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .3);
+        }
+
+        .pg-albuns header .nav-link {
+            color: #fff;
+            font-weight: 500;
+            transition: .3s;
+        }
+
+        .pg-albuns header .nav-link:hover, .pg-albuns header .nav-link.active {
+            color: #ffc107;
+        }
+
+        .pg-albuns header img {
+            width: 100px;
+            border-radius: 8px;
+        }
+
+        /* TÍTULOS */
+
+        .pg-albuns .h1_albuns {
+            text-align: center;
+            margin: 50px 0 20px;
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #1e1e2f;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, .1);
+        }
+
+        .pg-albuns main h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #ffc107;
+        }
+
+        /* GALERIA */
+
+        .pg-albuns .gallery {
+            column-count: 3;
+            column-gap: 20px;
+            padding: 0 30px 60px;
+        }
+
+        @media (max-width:992px) {
+            .pg-albuns .gallery {
+                column-count: 2;
+            }
+        }
+
+        @media (max-width:576px) {
+            .pg-albuns .gallery {
+                column-count: 1;
+            }
+        }
+
+        .pg-albuns .gallery a {
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 20px;
+            overflow: hidden;
+            border-radius: 15px;
+            background: #fff;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, .15);
+            transition: .3s;
+        }
+
+        .pg-albuns .gallery a:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, .25);
+        }
+
+        .pg-albuns .gallery img {
+            width: 100%;
+            display: block;
+            transition: .3s;
+        }
+
+        .pg-albuns .gallery a:hover img {
+            transform: scale(1.05);
+        }
+
+        /* FOOTER */
+
+        .pg-albuns footer {
+            background: #1e1e2f;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: auto;
+        }
+
+        .pg-albuns footer a {
+            color: #ffc107;
+            margin: 0 10px;
+            font-size: 1.4rem;
+            transition: .3s;
+        }
+
+        .pg-albuns footer a:hover {
+            color: #fff;
+        }
+
+        @media (max-width:768px) {
+            .pg-albuns header .nav {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+/* ===== index.php ===== */
+        body.pg-index {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .pg-index .container {
+            text-align: center;
+        }
+
+        .pg-index .form-box {
+            background-color: #1e1e1e;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+            width: 320px;
+            position: relative;
+        }
+
+        .pg-index .erro {
+            background-color: #ff4d4d;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .pg-index input[type="text"], .pg-index input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        .pg-index button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff;
+            border: none;
+            border-radius: 6px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .pg-index button:hover {
+            background-color: #0056b3;
+        }
+
+        .pg-index .admin-btn {
+            margin-top: 10px;
+            background-color: #28a745;
+        }
+
+        .pg-index .admin-btn:hover {
+            background-color: #218838;
+        }
+
+        .pg-index a {
+            color: #00aced;
+            text-decoration: none;
+        }
+
+        .pg-index a:hover {
+            text-decoration: underline;
+        }
+
+        .pg-index p {
+            margin-top: 15px;
+        }
+
+/* ===== index2.php ===== */
+        body.pg-index2 {
+            font-family: 'Poppins', sans-serif;
+            background: #fff;
+            color: #000;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .pg-index2 main {
+            flex: 1;
+        }
+
+        @media (max-width: 768px) {
+            .pg-index2 header .nav {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        .pg-index2 header {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        .pg-index2 header .nav-link:hover {
+            color: #ffc107 !important;
+            text-decoration: underline;
+        }
+
+        .pg-index2 main h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #ffc107;
+        }
+
+        .pg-index2 main h3 {
+            font-weight: 400;
+            line-height: 1.6;
+        }
+
+        .pg-index2 main p {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .pg-index2 main img {
+            border: 4px solid #ffc107;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .pg-index2 main img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7);
+        }
+
+        .pg-index2 footer {
+            background: #111;
+            border-top: 4px solid #ffc107;
+        }
+
+        .pg-index2 footer a {
+            transition: 0.3s;
+        }
+
+        .pg-index2 footer a:hover {
+            color: #ffc107 !important;
+            transform: scale(1.2);
+        }
+
+/* ===== loja/cart.php ===== */
+/* Global */
+.pg-cart *, .pg-cart *::before, .pg-cart *::after {
+    box-sizing: border-box;
+}
+
+body.pg-cart {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.pg-cart main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+.pg-cart h1 {
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.pg-cart p {
+    text-align: center;
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.pg-cart p strong {
+    color: #000;
+    font-size: 1.2em;
+}
+
+.pg-cart .button {
+    display: inline-block;
+    background-color: #ffc107;
+    color: #000;
+    font-weight: 600;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s;
+    margin: 10px 0;
+}
+
+.pg-cart .button:hover {
+    background-color: #e0a800;
+    text-decoration: none;
+}
+
+.pg-cart .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pg-cart .cart-table th, .pg-cart .cart-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.pg-cart .cart-table th {
+    background-color: #ffc107;
+    color: #000;
+    font-weight: 700;
+}
+
+.pg-cart .cart-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.pg-cart .cart-table tr:hover {
+    background-color: #fff3cd;
+}
+
+.pg-cart .cart-table input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.pg-cart .actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.pg-cart footer {
+    width: 100%;
+    margin-top: 40px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
+
+/* ===== loja/checkout.php ===== */
+/* Global */
+.pg-checkout *, .pg-checkout *::before, .pg-checkout *::after {
+    box-sizing: border-box;
+}
+
+body.pg-checkout {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.pg-checkout main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+.pg-checkout h1 {
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.pg-checkout p {
+    text-align: center;
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.pg-checkout p strong {
+    color: #000;
+    font-size: 1.2em;
+}
+
+.pg-checkout .button {
+    display: inline-block;
+    background-color: #ffc107;
+    color: #000;
+    font-weight: 600;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s;
+    margin: 10px 0;
+}
+
+.pg-checkout .button:hover {
+    background-color: #e0a800;
+    text-decoration: none;
+}
+
+.pg-checkout .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pg-checkout .cart-table th, .pg-checkout .cart-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.pg-checkout .cart-table th {
+    background-color: #ffc107;
+    color: #000;
+    font-weight: 700;
+}
+
+.pg-checkout .cart-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.pg-checkout .cart-table tr:hover {
+    background-color: #fff3cd;
+}
+
+.pg-checkout .cart-table input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.pg-checkout .actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.pg-checkout footer {
+    width: 100%;
+    margin-top: 40px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
+
+/* ===== loja/loja_online.php ===== */
+        body.pg-loja-online {
+
+            font-family: 'Poppins', sans-serif;
+            background: #fff;
+            color: #212529;
+
+        }
+
+        /* NAVBAR */
+
+        .pg-loja-online header {
+
+            background: #111;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, .4);
+
+        }
+
+        .pg-loja-online .navbar-brand img {
+
+            width: 100px;
+            border-radius: 10px;
+
+        }
+
+        .pg-loja-online .nav-link {
+
+            color: white !important;
+            font-weight: 500;
+            transition: .3s;
+
+        }
+
+        .pg-loja-online .nav-link:hover {
+
+            color: #ffc107 !important;
+
+        }
+
+        /* TITULO */
+
+        .pg-loja-online .page-title {
+
+            text-align: center;
+            margin-bottom: 40px;
+
+        }
+
+        .pg-loja-online .page-title h1 {
+
+            font-weight: 700;
+            color: #ffc107;
+
+        }
+
+        .pg-loja-online .page-title p {
+
+            color: #777;
+
+        }
+
+        /* PRODUTOS */
+
+        .pg-loja-online .products .card {
+
+            border: none;
+            border-radius: 18px;
+            overflow: hidden;
+
+            box-shadow:
+                0 10px 25px rgba(0, 0, 0, .12);
+
+            transition: .4s;
+
+        }
+
+        .pg-loja-online .products .card:hover {
+
+            transform: translateY(-10px);
+
+            box-shadow:
+                0 15px 35px rgba(0, 0, 0, .25);
+
+        }
+
+        .pg-loja-online .products img {
+
+            height: 250px;
+            width: 100%;
+            object-fit: cover;
+
+        }
+
+        .pg-loja-online .card-body {
+
+            padding: 25px;
+
+        }
+
+        .pg-loja-online .card-title {
+
+            font-weight: 700;
+
+        }
+
+        .pg-loja-online .price {
+
+            color: #ffc107;
+            font-size: 1.3rem;
+            font-weight: 700;
+
+        }
+
+        /* BOTÃO */
+
+        .pg-loja-online .btn-warning {
+
+            background: #ffc107;
+            border: none;
+            font-weight: 700;
+
+        }
+
+        .pg-loja-online .btn-warning:hover {
+
+            background: #e0a800;
+
+        }
+
+        /* INPUT */
+
+        .pg-loja-online input[type="number"] {
+
+            border-radius: 10px;
+
+        }
+
+        /* CARRINHO */
+
+        .pg-loja-online .cart-float {
+
+            position: fixed;
+
+            right: 25px;
+            bottom: 25px;
+
+            background: #ffc107;
+
+            padding: 15px 22px;
+
+            border-radius: 50px;
+
+            font-size: 20px;
+
+            box-shadow:
+                0 10px 25px rgba(0, 0, 0, .3);
+
+            z-index: 999;
+
+            transition: .3s;
+
+        }
+
+        .pg-loja-online .cart-float:hover {
+
+            transform: scale(1.1);
+
+        }
+
+        .pg-loja-online .cart-float a {
+
+            text-decoration: none;
+            color: #000;
+            font-weight: 700;
+
+        }
+
+        /* FOOTER */
+
+        .pg-loja-online footer {
+
+            background: #111;
+
+            border-top: 4px solid #ffc107;
+
+        }
+
+        @media(max-width:768px) {
+
+            .pg-loja-online .products img {
+
+                height: 220px;
+
+            }
+
+        }
+
+/* ===== loja/produto.php ===== */
+body.pg-produto {
+
+font-family:'Poppins',sans-serif;
+background:#fff;
+
+}
+
+.pg-produto header {
+
+background:#111;
+
+}
+
+.pg-produto .nav-link {
+
+color:white!important;
+
+}
+
+.pg-produto .nav-link:hover {
+
+color:#ffc107!important;
+
+}
+
+.pg-produto .product-box {
+
+margin-top:60px;
+
+border:2px solid #ffc107;
+
+border-radius:20px;
+
+padding:40px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+.pg-produto .product-img {
+
+width:100%;
+
+height:400px;
+
+object-fit:cover;
+
+border-radius:15px;
+
+}
+
+.pg-produto .price {
+
+font-size:30px;
+
+font-weight:700;
+
+color:#ffc107;
+
+}
+
+.pg-produto .btn-cart {
+
+background:#ffc107;
+
+color:#000;
+
+font-weight:bold;
+
+}
+
+.pg-produto .btn-cart:hover {
+
+background:#e0a800;
+
+}
+
+.pg-produto footer {
+
+margin-top:60px;
+
+background:#111;
+
+color:white;
+
+padding:20px;
+
+text-align:center;
+
+}
+
+/* ===== loja/sucesso_compra.php ===== */
+        body.pg-sucesso-compra {
+
+            font-family: 'Poppins', sans-serif;
+            background: #fff;
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .pg-sucesso-compra .card-sucesso {
+
+            max-width: 500px;
+            text-align: center;
+
+            padding: 40px;
+
+            border-radius: 15px;
+
+            border: 2px solid #ffc107;
+
+            box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
+
+        }
+
+        .pg-sucesso-compra h1 {
+
+            color: #198754;
+            font-weight: 700;
+
+            margin-bottom: 20px;
+
+        }
+
+        .pg-sucesso-compra p {
+
+            font-size: 18px;
+
+        }
+
+        .pg-sucesso-compra .btn-voltar {
+
+            background: #ffc107;
+            color: #000;
+
+            font-weight: 700;
+
+            border: none;
+
+            padding: 10px 30px;
+
+            margin-top: 20px;
+
+        }
+
+        .pg-sucesso-compra .btn-voltar:hover {
+
+            background: #e0a800;
+
+        }
+
+/* ===== sobre.php ===== */
+/* Estilo geral */
+body.pg-sobre {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Cabeçalho */
+.pg-sobre header {
+    background: linear-gradient(90deg, #1a1a1a, #333);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pg-sobre header h1 {
+    font-size: 1.8rem;
+}
+
+/* Navegação */
+.pg-sobre .nav-link {
+    transition: color 0.3s ease-in-out;
+}
+
+.pg-sobre .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Seção principal */
+.pg-sobre main h2 {
+    font-size: 2rem;
+    color: #222;
+    border-bottom: 3px solid #ffc107;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.pg-sobre main p {
+    font-size: 1.2rem;
+}
+
+/* Imagem da banda */
+.pg-sobre img.rounded {
+    border: 3px solid #ffc107;
+}
+
+/* Rodapé */
+.pg-sobre footer {
+    background: linear-gradient(90deg, #333, #1a1a1a);
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pg-sobre footer p {
+    margin-bottom: 0;
+}
+
+.pg-sobre footer a {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pg-sobre footer a:hover {
+    transform: scale(1.1);
+    color: #ffc107 !important;
+}
+/*Titulo principal do sobre*/
+.pg-sobre .titulo_do_sobre {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/*Titulo e mexer na pag tourne*/
+.pg-sobre .h1_torne {
+    text-align: center;
+    font-size: 1.8rem;
+}
+.pg-sobre .ul_lista {
+    list-style-type: none;
+    padding: 0;
+}
+.pg-sobre .li_torne {
+    background: #f4f4f4;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*Mexer no album*/
+.pg-sobre .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+.pg-sobre .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.pg-sobre .h1_albuns {
+    text-align: center;
+    font-size: 1.8rem;
+}
+/*Loja online*/
+ .pg-sobre #loja_online {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: underline;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Loja Online - Container */
+.pg-sobre .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+/* Card de Produto */
+.pg-sobre .card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    text-align: center;
+    padding: 20px 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.pg-sobre .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+/* Imagem do Produto */
+.pg-sobre .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.pg-sobre .card:hover img {
+    transform: scale(1.05);
+}
+
+/* Título do Produto */
+.pg-sobre .card h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #222;
+}
+
+/* Preço */
+.pg-sobre .card p {
+    font-size: 1.2rem;
+    color: #111;
+    margin: 8px 0 15px;
+    font-weight: bold;
+}
+
+/* Quantidade */
+.pg-sobre .card label {
+    font-size: 0.95rem;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.pg-sobre .card input[type="number"] {
+    width: 70px;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1rem;
+    transition: border 0.2s ease;
+}
+
+.pg-sobre .card input[type="number"]:focus {
+    border: 1px solid #ffc107;
+    outline: none;
+}
+
+/* Botões */
+.pg-sobre .button, .pg-sobre .actions button {
+    display: inline-block;
+    background: #ffc107;
+    color: #111;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.pg-sobre .button:hover, .pg-sobre .actions button:hover {
+    background: #e0a800;
+    color: #fff;
+}
+
+/* Badge do Carrinho */
+.pg-sobre a.button {
+    position: relative;
+}
+
+.pg-sobre a.button::after {
+    content: '🛒';
+    margin-left: 8px;
+}
+/* ============================
+   Carrinho de Compras
+============================ */
+.pg-sobre .cart-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* Título */
+.pg-sobre .cart-container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 3px solid #ffc107;
+    display: inline-block;
+    padding-bottom: 5px;
+    color: #222;
+}
+
+/* Tabela */
+.pg-sobre .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+.pg-sobre .cart-table thead {
+    background: #f8f9fa;
+    font-weight: bold;
+}
+
+.pg-sobre .cart-table th, .pg-sobre .cart-table td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.pg-sobre .cart-table img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* Input quantidade */
+.pg-sobre .cart-table input[type="number"] {
+    width: 60px;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1rem;
+    transition: border 0.2s ease;
+}
+
+.pg-sobre .cart-table input[type="number"]:focus {
+    border: 1px solid #ffc107;
+    outline: none;
+}
+
+/* Preço */
+.pg-sobre .cart-table td.price {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Botões dentro da tabela */
+.pg-sobre .cart-table .btn-remove {
+    background: #dc3545;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.pg-sobre .cart-table .btn-remove:hover {
+    background: #b02a37;
+}
+
+/* Resumo do carrinho */
+.pg-sobre .cart-summary {
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.pg-sobre .cart-summary span {
+    color: #ffc107;
+}
+
+/* Botões principais */
+.pg-sobre .cart-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.pg-sobre .cart-actions .btn {
+    background: #ffc107;
+    color: #111;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    flex: 1;
+    text-align: center;
+}
+
+.pg-sobre .cart-actions .btn:hover {
+    background: #e0a800;
+    color: #fff;
+}
+
+.pg-sobre .cart-actions .btn-secondary {
+    background: #6c757d;
+    color: #fff;
+}
+
+.pg-sobre .cart-actions .btn-secondary:hover {
+    background: #5a6268;
+}
+
+/* ===========================
+   Responsividade (Mobile)
+=========================== */
+@media (max-width: 768px) {
+    .pg-sobre header h1 {
+        font-size: 1.4rem;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .pg-sobre main h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .pg-sobre main p {
+        font-size: 1rem;
+        text-align: justify;
+        padding: 0 10px;
+    }
+
+    /* Ajustar galeria */
+    .pg-sobre .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 8px;
+        padding: 10px;
+    }
+
+    /* Loja online */
+    .pg-sobre .products {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .pg-sobre .card img {
+        height: 150px;
+    }
+
+    .pg-sobre .card h3 {
+        font-size: 1.1rem;
+    }
+
+    .pg-sobre .card p {
+        font-size: 1rem;
+    }
+
+    /* Carrinho */
+    .pg-sobre .cart-container {
+        padding: 15px;
+    }
+
+    .pg-sobre .cart-table th, .pg-sobre .cart-table td {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .pg-sobre .cart-table img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .pg-sobre .cart-summary {
+        font-size: 1rem;
+    }
+
+    .pg-sobre .cart-actions {
+        flex-direction: column;
+    }
+
+    .pg-sobre .cart-actions .btn {
+        width: 100%;
+    }
+
+    /* Footer */
+    .pg-sobre footer p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .pg-sobre footer a {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .pg-sobre header h1 {
+        font-size: 1.2rem;
+    }
+
+    .pg-sobre .titulo_do_sobre, .pg-sobre .h1_torne, .pg-sobre .h1_albuns, .pg-sobre #loja_online, .pg-sobre .cart-container h1 {
+        font-size: 1.3rem;
+    }
+
+    .pg-sobre main p {
+        font-size: 0.9rem;
+    }
+
+    .pg-sobre .card {
+        padding: 15px 10px;
+    }
+
+    .pg-sobre .card img {
+        height: 120px;
+    }
+
+    .pg-sobre .cart-table td, .pg-sobre .cart-table th {
+        font-size: 0.8rem;
+    }
+}
+
+    body.pg-sobre {
+      font-family: 'Poppins', sans-serif;
+      background: #f8f9fa;
+      color: #212529;
+      line-height: 1.7;
+    }
+
+    .pg-sobre header {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .pg-sobre header .nav-link {
+      font-weight: 500;
+      transition: color 0.3s, transform 0.2s;
+    }
+
+    .pg-sobre header .nav-link:hover {
+      color: #ffc107 !important;
+      transform: scale(1.05);
+    }
+
+    .pg-sobre main {
+      margin-top: 30px;
+    }
+
+    .pg-sobre .titulo_do_sobre {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 25px;
+      text-align: center;
+      color: #343a40;
+    }
+
+    .pg-sobre .orientar p {
+      margin-bottom: 15px;
+      padding: 10px 15px;
+      background: #fff;
+      border-left: 5px solid #ffc107;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s;
+    }
+
+    .pg-sobre .orientar p:hover {
+      transform: translateY(-3px);
+    }
+
+    .pg-sobre footer {
+      background: #212529;
+      color: #fff;
+      font-size: 0.9rem;
+      box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .pg-sobre footer a {
+      font-size: 1.3rem;
+      transition: color 0.3s, transform 0.2s;
+    }
+
+    .pg-sobre footer a:hover {
+      color: #ffc107 !important;
+      transform: scale(1.2);
+    }
+
+    @media (max-width: 768px) {
+      .pg-sobre header .nav {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .pg-sobre .titulo_do_sobre {
+        font-size: 2rem;
+      }
+    }
